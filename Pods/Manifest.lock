@@ -1,34 +1,37 @@
 PODS:
-  - AEXML (4.1.0)
-  - BartyCrouch (3.8.1)
-  - Crashlytics (3.8.6):
-    - Fabric (~> 1.6.3)
-  - Fabric (1.6.13)
-  - KeyHolder (2.0.1):
-    - Magnet (~> 2.0)
-  - LoginServiceKit (1.0.0)
-  - Magnet (2.0.1)
-  - Nimble (7.0.1)
+  - AEXML (4.4.0)
+  - BartyCrouch (4.0.2)
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - KeyHolder (3.0.1):
+    - Magnet (~> 2.3)
+  - LoginServiceKit (2.1.0)
+  - Magnet (2.3.1)
+  - Nimble (8.0.2)
   - PINCache (2.3)
-  - Quick (1.1.0)
-  - Realm (2.10.1):
-    - Realm/Headers (= 2.10.1)
-  - Realm/Headers (2.10.1)
-  - RealmSwift (2.10.1):
-    - Realm (= 2.10.1)
-  - RxCocoa (3.6.1):
-    - RxSwift (~> 3.6)
-  - RxOptional (3.2.0):
-    - RxCocoa
-    - RxSwift
-  - RxScreeen (1.1.0):
-    - RxCocoa (~> 3.0)
-    - RxSwift (~> 3.0)
-    - Screeen (~> 1.0)
-  - RxSwift (3.6.1)
-  - Screeen (1.0.0)
-  - Sparkle (1.18.1)
-  - SwiftLint (0.22.0)
+  - Quick (2.1.0)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxOptional (4.0.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxScreeen (1.4.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+    - Screeen (~> 1.3)
+  - RxSwift (5.0.0)
+  - Screeen (1.3.0)
+  - Sparkle (1.21.3)
+  - SwiftLint (0.34.0)
 
 DEPENDENCIES:
   - AEXML
@@ -48,36 +51,59 @@ DEPENDENCIES:
   - Sparkle
   - SwiftLint
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - BartyCrouch
+    - Crashlytics
+    - Fabric
+    - KeyHolder
+    - Magnet
+    - Nimble
+    - PINCache
+    - Quick
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxOptional
+    - RxRelay
+    - RxScreeen
+    - RxSwift
+    - Screeen
+    - Sparkle
+    - SwiftLint
+
 EXTERNAL SOURCES:
   LoginServiceKit:
     :git: https://github.com/Clipy/LoginServiceKit.git
 
 CHECKOUT OPTIONS:
   LoginServiceKit:
-    :commit: cb1ca8b3c220447090dbee80cd88daf1b25fb71d
+    :commit: 9cb52af1a1386ebbb34ed35bf92036f30de7023e
     :git: https://github.com/Clipy/LoginServiceKit.git
 
 SPEC CHECKSUMS:
-  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
-  BartyCrouch: 7a57b80f80c94deb1db99942eebf14f9fad927fe
-  Crashlytics: 95d05f4e4c19a771250c4bd9ce344d996de32bbf
-  Fabric: 2fb5676bc811af011a04513451f463dac6803206
-  KeyHolder: 33180865d66f40088758915f30ba7017e96ca264
-  LoginServiceKit: 7433d75d42dd0d8047f2d428b2de453c58947d3d
-  Magnet: d4a1767953d02c2141f5b572ea483244fe0878d5
-  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  AEXML: 16fb739dfb3809e91ebf9e9dc391482c3a6aaebf
+  BartyCrouch: 3f3501276901326bf4150341ad801467da972e43
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  KeyHolder: 142932db4eac7420b003e2eae94c9a61b8b53cb1
+  LoginServiceKit: 0f2a392ee764e01a870c701fe1350823009c239b
+  Magnet: f8dac2ffc845ffe68b2dd21c68a801f866f4a098
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
-  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
-  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
-  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
-  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
-  RxOptional: d2d6a68064bc16b4801332c40663967f481b0234
-  RxScreeen: 6aaf7a785a86399cbbf801318b45033e78d57340
-  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
-  Screeen: 07f3593d9941d7a9546f081e4f775ce85d974447
-  Sparkle: 06ea33170007c5937ee54da481b4481af98fac79
-  SwiftLint: 1134786caedd2caab0560d2f36b76414a5a56808
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxOptional: 9904e2219d59260c3c171273d475b2126de187e8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxScreeen: 5ba3d4047d7837d5478711c4f1cda5303a306120
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Screeen: caafccf0bdcc5d4ff175d04ceebfab432a62276a
+  Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
+  SwiftLint: 79d48a17c6565dc286c37efb8322c7b450f95c67
 
 PODFILE CHECKSUM: aab74e2b86e5ec92d549788b6ab0b632a458ef46
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.7.5
